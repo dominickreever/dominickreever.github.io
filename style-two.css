@@ -40,3 +40,12 @@ a {
     padding: 1vw;
     border-radius: 1vw;
 }
+
+.link-grid {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    column-gap: 1vh;
+}
