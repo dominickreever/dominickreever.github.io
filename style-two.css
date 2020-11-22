@@ -1,10 +1,17 @@
-#container {
-    margin: auto;
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;;
+    margin-bottom: 3vh;;
     text-align: center;
     width: 70%;
+    
+    padding: 2vw;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
 }
 
-#footer {
+.footer {
     position: fixed;
     bottom: 1vw;
     right: 1vw;
@@ -43,8 +50,13 @@ a {
 
 .link-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto;
     width: 80%;
     margin: auto;
-    column-gap: 1vh;
+    row-gap: 1vh;
+}
+
+a:hover {
+    background-color: rgb(51, 51, 51);;
+    opacity: 95%;
 }
