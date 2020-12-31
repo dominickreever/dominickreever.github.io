@@ -1,9 +1,8 @@
 body {
+    margin: 0;
     height: 100%;
     width: 100%;
-    background-image: url('./Images/Vector\ Modern\ Connected\ Lines\ Background\ White-01.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+
     text-align: center;
     font-family: 'Bungee';
 }
@@ -23,19 +22,19 @@ h3 {
 .project-showcase {
     position: relative;
     background-color: white;
+    height: 100%;
     width: 100vw;
     display: grid;
     grid-template-columns: auto auto auto;
     opacity: 0.9;
-    margin: 5% auto;
-    justify-content: center;
+    margin: 5% 0;
+    justify-content: space-around;
 }
 
 .project {
     display: block;
     height: 10rem;
-    width: 100%;
-    margin: auto;
+    width: 20rem;
 }
 
 .container {
@@ -92,26 +91,12 @@ i {
     margin-top: 0.5vh;
 }
 
-img {
-    height: 10rem;
-    width: 10rem;
-}
-
 .footer {
     position: absolute;
     background-color: white;
     bottom: 0;
     left: 0;
     width: 100%;
-    opacity: 0.9;
-}
-
-.footer-text {
-    height: 1rem;
-    font-size: 1rem;
-    position: relative;
-    justify-content: center;
-    align-content: center;
 }
 
 @media (max-width: 500px) {
@@ -124,7 +109,7 @@ img {
         grid-template-rows: auto auto auto;
         opacity: 0.9;
         margin: auto;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .project {
@@ -144,8 +129,7 @@ img {
         font-size: 0.8rem;
     }
 
-    .footer-text {
+    .overlay {
         display: none;
     }
-
 }
