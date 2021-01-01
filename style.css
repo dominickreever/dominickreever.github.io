@@ -44,6 +44,15 @@ h3 {
 }
 
 .project {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+.project-img {
     display: block;
     height: 10rem;
     width: 20rem;
@@ -52,6 +61,7 @@ h3 {
 .container {
     position: relative;
     width: 100%;
+    margin-bottom: 1rem;
   }
 
 .overlay {
@@ -77,12 +87,13 @@ h3 {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
+.source-code {
+    text-decoration: none;
+}
 
 .circle {
     background-color: black;
