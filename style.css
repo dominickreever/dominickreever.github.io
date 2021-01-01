@@ -11,7 +11,7 @@ body {
 
 h1 {
     font-size: 3rem;
-
+    margin-bottom: 0;
 }
 
 h3 {
@@ -23,6 +23,13 @@ h3 {
     text-align: center;
     width: 50%;
     margin: auto;
+}
+
+.profile-pic {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    
 }
 
 .project-showcase {
