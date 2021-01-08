@@ -111,6 +111,10 @@ i {
     margin-top: 0.5vh;
 }
 
+.circle:hover i {
+    color: skyblue;
+}
+
 .footer {
     position: relative;
     bottom: 0;
