@@ -164,8 +164,10 @@ i {
     .overlay {
         display: none;
     }
-}
 
-.hidden {
+    .hidden {
     display: none;
 }
+
+}
+
